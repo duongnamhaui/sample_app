@@ -1,33 +1,33 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
   hello: "Hello world"
+  about: "About"
+  contact: "Contact"
+  home: "Home"
+  help: "Help"
+  log_in: "Log in"
+  new_user: "New user"
+  news: "News"
+  sample_app: "Sample app"
+  sign_up_now: "Sign up now!"
+  page_for_new_user: "Page for new user"
+  welcome: "This is the home page for the Ruby on Rails Tutorial sample
+    application."
+  welcome_message: "Welcome to the Sample App"
+  footer_message_html: "The %{href1} by %{href2}"
+  link1: "Ruby on Rails Tutorial"
+  link2: "Michael Hartl"
+  help_message_html: "Get help on the Ruby on Rails Tutorial at the %{href1}.
+    To get help on this sample app, see the <b>%{href2}  Tutorial </b>"
+  link3: "Help on ROR"
+  link4: "Help abc"
+  rails_logo: "Rails logo"
+  about_message_html: The <em>%{href1}</em> is a %{href2} and %{href3} to teach
+    web development with %{href4}. This is the sample application for the
+      tutorial."
+  link5: "Ruby on Rails Tutorial"
+  link6: "book"
+  link7: "screencast series"
+  link8: "Ruby on Rails"
+  contact_message_html: "Contact the Ruby on Rails Tutorial about the sample
+    app at the %{href1}"
+  link9: "Contact page"
