@@ -5,6 +5,7 @@ en:
   home: "Home"
   help: "Help"
   log_in: "Log in"
+  log_out: "Log out"
   new_user: "New user"
   news: "News"
   users: "Users"
@@ -17,6 +18,8 @@ en:
   page_for_new_user: "Page for new user"
   welcome: "This is the home page for the Ruby on Rails Tutorial sample
     application."
+  profile: "Profile"
+  setting: "Settings"
   welcome_message: "Welcome to the Sample App"
   footer_message_html: "The %{href1} by %{href2}"
   link1: "Ruby on Rails Tutorial"

@@ -1,13 +1,6 @@
 class UsersController < ApplicationController
-  def index
-    redirect_to "/404"
-  end
-
   def show
     @user = User.find_by id: params[:id]
-    if !@user
-      redirect_to "/404"
-    end
   end
 
   def new
@@ -17,7 +10,8 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      flash[:success] = "Welcome to the Sample App!"
+      log_in @user
+      flash[:success] = t "welcome_message"
       redirect_to @user
     else
       render :new
@@ -29,5 +23,9 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit :name, :email, :password,
       :password_confirmation
+  end
+
+  def User.new_token
+    SecureRandom.urlsafe_base64
   end
 end
